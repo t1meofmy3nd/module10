@@ -2,7 +2,7 @@ user_height = int(input("Ввндите высоту пирамиды: "))
 count = 0
 
 for row in range(user_height):
-    count += 1
-    print(f"{' ' * (user_height - count)}{'#' * row}#{'#' * row}", end="")
+    for cow in range(1):
+        print(f"{' ' * (user_height - row)}{'#' * row}#{'#' * row}", end="")
     print()
-#Я могу решить с вложенным циклом, но с одним проще
+#цикл cow можно убрать. Добавил из за темы модуля
