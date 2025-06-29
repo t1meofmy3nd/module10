@@ -1,4 +1,4 @@
-user_height = int(input("Ввндите высоту пирамиды: "))
+user_height = int(input("Введите высоту пирамиды: "))
 count = 0
 
 for row in range(user_height):
